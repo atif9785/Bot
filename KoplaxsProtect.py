@@ -57,8 +57,8 @@ print "login success plak"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" ^[One Piece Bot]^
-OWNER •Hanavy Koplaxs•"""
+helpMessage =""" ^[Atif Team Bot]^
+OWNER •AtifAslam4You•"""
 
 Setgroup =""" 
     [Admin Menu]
@@ -98,9 +98,9 @@ Imid = ku.getProfile().mid #Jinbei
 Smid = satpam.getProfile().mid #Akun Utama
 mid1 = k1.getProfile().mid #Backup
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"ued156c86ffa56024c0acba16f7889e6d"]
-admin=["ued156c86ffa56024c0acba16f7889e6d","u2d76b3ee0f0795aa93d29bdfb5f2172c","uad208d16f70d0cc48645b9f5d5909936"] 
-owner=["ued156c86ffa56024c0acba16f7889e6d"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"ue1abcd4164019c8fb3cf6a8b318be7f8"]
+admin=["ue1abcd4164019c8fb3cf6a8b318be7f8"]
+owner=["ue1abcd4164019c8fb3cf6a8b318be7f8"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -108,9 +108,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
-≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
-≫ ONE PIECE BOT PROTECT ≪
+    'message':"""Atif team 
+≫ Atif pm AtifBot Protect ≪
+≫ ATIF TEAM BOT PROTECT ≪
 
 Ready:
 
@@ -2282,7 +2282,7 @@ def bot(op):
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Kuy","One piece","Join kuy"]:
+            elif msg.text in ["Kuy","One piece","Join kuy","In"]:
               if msg.from_ in owner:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -2406,7 +2406,7 @@ def bot(op):
     #----------------------Fungsi Join Group Finish---------------#
 
     #-------------Fungsi Leave Group Start---------------#
-            elif msg.text in ["Bye op","Kabur all","Kaboor all"]:
+            elif msg.text in ["Bye op","Kabur all","Kaboor all","out room"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
@@ -2917,11 +2917,12 @@ def bot(op):
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
-              cl.sendText(msg.to,"Itu Creator Kami Yang Pea 😜")
+              cl.sendText(msg.to,"Apka Apna Atif AtifAslam4You")
+
                 
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi","bot","Bot"]:
-                 quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Kupret Lu','Muka Lu Kaya Jamban','Ada Orang kah disini?','Sange Euy','Ada Perawan Nganggur ga Coy?']
+                 quote = ['Oye Bot nhi ham Atif ke bodyguard hai]
                  psn = random.choice(quote)
                  cl.sendText(msg.to,psn)
             
